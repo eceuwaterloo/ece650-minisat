@@ -44,8 +44,8 @@ int main(void) {
               << "l3=" << Minisat::toInt(solver->modelValue(l3)) << " "
               << "l4=" << Minisat::toInt(solver->modelValue(l4)) << " "
               << "b0=" << Minisat::toInt(solver->modelValue(b0)) << " "
-              << "b1=" << Minisat::toInt(solver->modelValue(b0)) << " "
-              << "b2=" << Minisat::toInt(solver->modelValue(b0)) << std::endl;
+              << "b1=" << Minisat::toInt(solver->modelValue(b1)) << " "
+              << "b2=" << Minisat::toInt(solver->modelValue(b2)) << std::endl;
 
     // more clauses can be added to the solver
     std::cout << "Adding more clauses...\n";
